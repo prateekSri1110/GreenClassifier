@@ -9,7 +9,7 @@ import streamlit as st
 
 st.header("🍄 Green Classifier Model 🍄")
 
-model = load_model("C:\\Users\Prateek Srivastava\\imageClassify.keras")
+model = load_model("imageClassify.keras")
 
 category = [
     "apple",
